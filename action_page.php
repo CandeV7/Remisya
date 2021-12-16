@@ -58,7 +58,7 @@
         }
 
         $db = mysqli_select_db ($conn, $basededatos) or die ("No se pudo conectar a la base de datos");
-        $consulta = "INSERT INTO infousuario (email,contraseña,usuario, telefono, fecha-de-nacimiento, direccion,barrio) VALUES ($email,$contraseña,$usuario, $telefono, $fecha, $direccion,$barrio)";
+        $consulta = "INSERT INTO "usuarios" (email, contraseña, usuario1, telefono, fechanac, direccion,barrio) VALUES ($email,$contraseña,$usuario1, $telefono, $fechanac, $direccion,$barrio)";
 
         if (mysqli_query ($con, $consulta))
         {
