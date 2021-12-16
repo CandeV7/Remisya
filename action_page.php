@@ -20,7 +20,7 @@
     </head>
 
     <body>
-        <p> <a href="/index.html">Volver a Remis Ya</a> </p>
+        <p> <a href="index.html">Volver a Remis Ya</a> </p>
 
         <div id="mensaje"></div>
 
@@ -28,21 +28,21 @@
 
         $email= $_POST ["email"];
         $contraseña = $_POST ["contraseña"];
-        $usuario = $_POST ["usuario"];
+        $usuario1 = $_POST ["usuario1"];
         $telefono = $_POST ["telefono"];
-        $fecha = $_POST ["fecha-de-nacimiento"];
-        $barrio = $_POST ["direccion"];
-        $direccion = $_POST ["barrio"];
+        $fechanac = $_POST ["fechanac"];
+        $direccion = $_POST ["direccion"];
+        $barrio = $_POST ["barrio"];
 
         print " <p>Su nombre es <strong>$email</strong>.</p> \n ";
         print " \n";
         print " <p>Su telefono es <strong>$contraseña</strong>.</p> \n ";
         print " \n";
-        print " <p>Su telefono es <strong>$usuario</strong>.</p> \n ";
+        print " <p>Su telefono es <strong>$usuario1</strong>.</p> \n ";
         print " \n";
         print " <p>Su dni, su usuario y su nueva contraseña es <strong>$telefono</strong>.</p> \n ";
         print " \n";
-        print " <p>Su fecha de nacimiento es <strong>$date</strong>.</p> \n ";
+        print " <p>Su fecha de nacimiento es <strong>$fechanac</strong>.</p> \n ";
         print " \n";
         print " <p>El barrio donde usted reside es <strong>$direccion</strong>.</p> \n ";
         print " \n";
